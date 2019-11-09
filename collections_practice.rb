@@ -45,11 +45,11 @@ end
 
 def add_s(array)
   
-  array.collect.with_index {|element, index|
+  array.collect.with_index {|word|, index|
     if index == 1
-     element
+     word
     else
-     element + "s"
+     word + "s"
     end 
   }
 end 
